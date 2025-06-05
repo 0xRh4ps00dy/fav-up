@@ -90,8 +90,8 @@ class FavUp(object):
                     "file": open(self.output, "w")
                 }
 
-            if self.output:
-                self._output["file"].close()
+            # if self.output:
+                # self._output["file"].close()
 
     
     def _argsCheck(self, args):
